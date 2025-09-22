@@ -6,5 +6,7 @@ export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
     include: ['swiper'],
+    base: '/Registration-Web-Application-for-Research-and-Development/',
+  
   },
 })
